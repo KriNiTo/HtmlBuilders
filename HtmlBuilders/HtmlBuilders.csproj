@@ -63,6 +63,8 @@
     <Compile Include="ExtensionsForHtmlTag.TogglableAttributes.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="BuildAndPushPackage.cmd" />
+    <None Include="HtmlBuilders.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
