@@ -9,7 +9,7 @@ Now available for ASP.NET MVC 4.0!
 
 Get the [Nuget Package](https://www.nuget.org/packages/HtmlBuilders-MVC4-Backport/).
 
-For the version compatible with Microsoft.AspNet.Mvc (>= 5.2.2) see: ([HtmlBuilders by Alexander Moerman](https://github.com/amoerie/HtmlBuilders).
+For the version compatible with Microsoft.AspNet.Mvc (>= 5.2.2) see: [HtmlBuilders by Alexander Moerman](https://github.com/amoerie/HtmlBuilders).
 
 ***
 
