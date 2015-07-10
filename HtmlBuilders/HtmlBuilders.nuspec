@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HtmlBuilders-MVC4-Backport</id>
+    <version>$version$</version>
+    <title>HtmlBuilders for ASP.NET MVC 4</title>
+    <authors>$author$</authors>
+    <owners>Christian Pfahl (KriNiTo)</owners>
+    <projectUrl>https://github.com/KriNiTo/HtmlBuilders</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A faster and easier way to parse and create HTML in C#.</description>
+    <releaseNotes>1.0.0 Changed dependencies to work with ASP.NET MVC 4 instead of 5.2.2</releaseNotes>
+    <tags>HTML, parsing, creating</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="HtmlAgilityPack" version="1.4.6" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Web" />
+      <frameworkAssembly assemblyName="System.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+      <frameworkAssembly assemblyName="System.Web.WebPages, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    </frameworkAssemblies>
+  </metadata>
+  
+</package>
